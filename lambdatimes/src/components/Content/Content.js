@@ -10,7 +10,7 @@ export default class Content extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selected: "javascript",
+      selected: "all",
       tabs: [],
       cards: []
     };
